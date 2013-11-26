@@ -1,0 +1,6 @@
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\Whitebox test\bin\Debug\Whitebox test.exe.config
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\Whitebox test\bin\Debug\Whitebox test.exe
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\Whitebox test\bin\Debug\Whitebox test.pdb
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\Whitebox test\obj\Debug\Whitebox test.csprojResolveAssemblyReference.cache
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\Whitebox test\obj\Debug\Whitebox test.exe
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\Whitebox test\obj\Debug\Whitebox test.pdb

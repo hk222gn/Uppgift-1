@@ -1,0 +1,7 @@
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\UnitTestTriangel\bin\Debug\UnitTestTriangel.dll
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\UnitTestTriangel\bin\Debug\UnitTestTriangel.pdb
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\UnitTestTriangel\bin\Debug\Whitebox test.exe
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\UnitTestTriangel\bin\Debug\Whitebox test.pdb
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\UnitTestTriangel\obj\Debug\UnitTestTriangel.csprojResolveAssemblyReference.cache
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\UnitTestTriangel\obj\Debug\UnitTestTriangel.dll
+C:\Users\Andelina\Documents\GitHub\Uppgift-1\Whitebox\UnitTestTriangel\obj\Debug\UnitTestTriangel.pdb
