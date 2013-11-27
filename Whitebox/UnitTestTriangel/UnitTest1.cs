@@ -31,13 +31,13 @@ namespace UnitTestTriangel
         public void isScaleneFalse()
         {
             Triangle t = new Triangle(3, 3, 5.4);
-            Assert.IsFalse(t.isScalene());//Ska misslyckas, scalene ska vara = 3
+            Assert.IsFalse(t.isScalene());
         }
         [TestMethod]
         public void isEquilateralFalse()
         {
             Triangle t = new Triangle(5, 2.0, 2.0);
-            Assert.IsFalse(t.isEquilateral());//Ska misslyckas, equileteral ska vara = 1
+            Assert.IsFalse(t.isEquilateral());
         }
         [TestMethod]
         public void isIsoscelesFalse()
