@@ -18,14 +18,32 @@ namespace UnitTestTriangel
         public void isEquilateral()
         {
             Triangle t = new Triangle(2.0, 2.0, 2.0);
-            Assert.IsTrue(t.isEquilateral());
+            Assert.IsTrue(t.isEquilateral());//Ska misslyckas, equileteral ska vara = 1
         }
         //Inga lika sidor
         [TestMethod]
         public void isScalene()
         {
             Triangle t = new Triangle(3.0, 4.0, 5.0);
-            Assert.IsTrue(t.isScalene());
+            Assert.IsTrue(t.isScalene());//Ska misslyckas, scalene ska vara = 3
+        }
+        [TestMethod]
+        public void isScaleneFalse()
+        {
+            Triangle t = new Triangle(3, 3, 5.4);
+            Assert.IsFalse(t.isScalene());//Ska misslyckas, scalene ska vara = 3
+        }
+        [TestMethod]
+        public void isEquilateralFalse()
+        {
+            Triangle t = new Triangle(5, 2.0, 2.0);
+            Assert.IsFalse(t.isEquilateral());//Ska misslyckas, equileteral ska vara = 1
+        }
+        [TestMethod]
+        public void isIsoscelesFalse()
+        {
+            Triangle t = new Triangle(1.0, 1.0, 1.0);
+            Assert.IsFalse(t.isIsosceles());
         }
     }
 }
