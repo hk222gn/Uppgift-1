@@ -45,5 +45,28 @@ namespace UnitTestTriangel
             Triangle t = new Triangle(1.0, 1.0, 1.0);
             Assert.IsFalse(t.isIsosceles());
         }
+        [TestMethod]
+        public void trianglePointIsosceles()
+        {
+            Triangle t = new Triangle(new Point(0, 0), new Point(10, 0), new Point(10, 10));
+            Assert.IsTrue(t.isIsosceles());
+        }
+        [TestMethod]
+        public void trianglePointArray()
+        {
+            Point[] a = new Point[] { new Point { x = 0, y = 0 }, new Point { x = 0, y = 10 }, new Point { x = 10, y = 10 } };
+            Triangle t = new Triangle(a);
+            Assert.IsTrue(t.isIsosceles());
+        }
+        [TestMethod]
+        public void arrayLoopTest()
+        {
+            double[] a = new double[3];
+            a[0] = 1.5;
+            a[1] = 1.5;
+            a[2] = 3.0;
+            Triangle t = new Triangle(a);
+            Assert.IsTrue(t.isIsosceles());
+        }
     }
 }

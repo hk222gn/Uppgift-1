@@ -43,13 +43,13 @@ public class Triangle {
   }
 
   public bool isScalene() {
-    if(uniqueSides()==1)// byt till 3 för att fixa
+    if(uniqueSides()==3)// Va 1 innan
       return true;
     return false;
   }
 
   public bool isEquilateral() {
-    if(uniqueSides()==3)// byt till 1 för att fixa
+    if(uniqueSides()==1)// Va 3 innan
       return true;
     return false;
   }

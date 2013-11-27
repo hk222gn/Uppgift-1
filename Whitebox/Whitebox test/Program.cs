@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Whitebox_test
 {
-    class Program
+    class program
     {
         static void Main(string[] args)
         {
